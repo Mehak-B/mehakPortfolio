@@ -1,0 +1,9 @@
+.nav-bar-container{
+    &__ul{
+        display: flex;
+        gap: 12px;
+        justify-content: flex-end;
+        list-style-type: none;
+    }
+
+}
