@@ -9,7 +9,11 @@ import { IntroductionComponent } from "../introduction/introduction.component";
 })
 export class NavBarComponent {
 
-  navBarItems = ["Home", "About", "Projects", "Contact"]
+  navBarItems = [{
+    label:"Home", id:"home"},
+    {label: "About", id:"about"},
+    {label:"Projects", id:"projects"}, 
+    {label:"Contact", id:"contact"}]
 
   // count = signal(0);
  
@@ -23,6 +27,13 @@ export class NavBarComponent {
   //  this.count.set(10)
   //  return this.count()
 
+  }
+
+  scrollTo(sectionId: string): void {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
   }
 
 }
