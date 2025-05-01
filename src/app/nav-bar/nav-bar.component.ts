@@ -13,7 +13,8 @@ export class NavBarComponent {
     label:"Home", id:"home"},
     {label: "About", id:"about"},
     {label:"Projects", id:"projects"}, 
-    {label:"Contact", id:"contact"}]
+    {label:"Contact", id:"contact"},
+  {label:"Experience",id:"experience"}]
 
   // count = signal(0);
  
