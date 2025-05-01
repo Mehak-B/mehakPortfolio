@@ -1,0 +1,93 @@
+.introduction-wrapper{
+    background-color: white;
+    padding:140px 0;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    gap:16px;
+    font-family: cursive;
+    font-weight: 600;
+    font-size:30px;
+    color:#001860;
+    img{
+        height:250px;
+        width:350px;
+    }
+
+    &__text-c{
+        font-weight: 400;
+        font-size:24px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        display: flex;
+        flex-direction: column;
+
+    }
+ 
+}
+
+.skills-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding: 40px;
+    justify-content: center;
+    
+    .about-skills{
+      display:flex;
+      gap:40px;
+    }
+  
+    &__card {
+      flex: 0 1 calc(50% - 1.5rem); 
+      background-color:#784af6;
+      // border: 1px solid #3366CC;
+      border-radius: 4px;
+      padding: 40px;
+      box-shadow: 0 4px 12px rgba(0, 102, 204, 0.1);
+      transition: transform 0.2s ease;
+      width:500px;
+      height:300px;
+      
+
+  
+      &:hover {
+        transform: translateY(-5px);
+      }
+    }
+  
+    &__title {
+      margin-bottom: 1rem;
+      color: #88baec;
+      font-size: 24px;
+      font-weight: 600;
+      font-family: cursive;
+      }
+  
+    &__text {
+      font-size: 18px;
+      line-height:34px;
+      color: #ffff;
+      display:flex;
+      flex-direction:column;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+  
+    // Optional: full width on small screens
+    @media (max-width: 768px) {
+      &__card {
+        flex: 0 1 100%;
+      }
+    }
+  }
+
+  .bottom{
+    background-color:#d8ecf3;
+    padding:140px 0;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+
+  }
+  

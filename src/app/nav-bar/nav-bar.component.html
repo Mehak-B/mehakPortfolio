@@ -1,0 +1,9 @@
+<div class=" nav-bar-container" >
+    <ul class="nav-bar-container__ul">
+     @for(item of navBarItems; track item){
+        <li (click)="scrollTo(item.id)">{{item.label}}</li>
+        }
+    </ul>
+</div>
+<app-introduction></app-introduction>
+
