@@ -16,17 +16,8 @@ export class NavBarComponent {
     {label:"Contact", id:"contact"},
   {label:"Experience",id:"experience"}]
 
-  // count = signal(0);
  
   ngOnInit(){ 
-  // this.count.set(6)
-  // console.log('The count is: ' + this.count());
-  // console.log(this.countSet())
-  // }
-
-  // countSet(){
-  //  this.count.set(10)
-  //  return this.count()
 
   }
 
