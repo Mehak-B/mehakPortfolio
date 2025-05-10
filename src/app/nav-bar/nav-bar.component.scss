@@ -1,14 +1,25 @@
 .nav-bar-container{
-    margin:50px;
+    margin:40px;
+    display:flex;
+    justify-content: space-between;
     &__ul{
         font-family:Arial, Helvetica, sans-serif;
-        color: white;
+        color:#1b3fae;
         font-weight: 600;
         cursor:pointer;
         display: flex;
         gap: 40px;
         justify-content: flex-end;
         list-style-type: none;
+            
+    }
+    &__social{
+        display:flex;
+        align-items: center;
+        gap:12px;
+        i{
+            font-size:30px;
+        }
     }
 
 }

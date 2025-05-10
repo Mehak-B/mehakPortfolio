@@ -1,9 +1,15 @@
 <div class=" nav-bar-container" >
+    <div class="nav-bar-container__social">
+        <div><a href="https://github.com/Mehak-B" target="_blank"><i class="ph-fill ph-github-logo"></i></a></div>
+        <div><a href="https://www.linkedin.com/in/mehak-bhardwaj-89a3b" target="_blank"><i class="ph-fill ph-linkedin-logo"></i></a></div>
+    </div>
+    <div>
     <ul class="nav-bar-container__ul">
      @for(item of navBarItems; track item){
         <li (click)="scrollTo(item.id)">{{item.label}}</li>
         }
     </ul>
+    </div>
 </div>
 <app-introduction></app-introduction>
 
